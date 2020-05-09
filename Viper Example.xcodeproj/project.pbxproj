@@ -7,23 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		50DDDFB324670F310048608D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50DDDFB224670F310048608D /* AppDelegate.swift */; };
-		50DDDFB524670F310048608D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50DDDFB424670F310048608D /* SceneDelegate.swift */; };
-		50DDDFB724670F310048608D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50DDDFB624670F310048608D /* ViewController.swift */; };
-		50DDDFBA24670F310048608D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50DDDFB824670F310048608D /* Main.storyboard */; };
-		50DDDFBC24670F360048608D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50DDDFBB24670F360048608D /* Assets.xcassets */; };
-		50DDDFBF24670F360048608D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50DDDFBD24670F360048608D /* LaunchScreen.storyboard */; };
+		50DDDFE624670F990048608D /* EmployeeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50DDDFD724670F980048608D /* EmployeeViewController.swift */; };
+		50DDDFE724670F990048608D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50DDDFD824670F980048608D /* Main.storyboard */; };
+		50DDDFE824670F990048608D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50DDDFDC24670F980048608D /* AppDelegate.swift */; };
+		50DDDFE924670F990048608D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50DDDFDD24670F980048608D /* SceneDelegate.swift */; };
+		50DDDFEA24670F990048608D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50DDDFDF24670F980048608D /* Assets.xcassets */; };
+		50DDDFEB24670F990048608D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50DDDFE024670F980048608D /* LaunchScreen.storyboard */; };
+		50DDDFEC24670F990048608D /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 50DDDFE224670F980048608D /* README.md */; };
+		50DDDFED24670F990048608D /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50DDDFE424670F990048608D /* Toast.swift */; };
+		50DDDFF8246711700048608D /* EmployeeResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50DDDFF7246711700048608D /* EmployeeResponseModel.swift */; };
+		50DDDFFA246711D90048608D /* EmployeeProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50DDDFF9246711D90048608D /* EmployeeProtocols.swift */; };
+		50DDDFFC246713010048608D /* ServiceInteractionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50DDDFFB246713010048608D /* ServiceInteractionHandler.swift */; };
+		50DDDFFE246713A20048608D /* NetworkReachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50DDDFFD246713A20048608D /* NetworkReachability.swift */; };
+		50DDE000246714030048608D /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50DDDFFF246714030048608D /* Constants.swift */; };
+		50DDE002246714530048608D /* EmployeeInterceptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50DDE001246714530048608D /* EmployeeInterceptor.swift */; };
+		50DDE004246715E20048608D /* EmployeePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50DDE003246715E20048608D /* EmployeePresenter.swift */; };
+		50DDE006246716650048608D /* EmployeeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50DDE005246716650048608D /* EmployeeRouter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		50DDDFAF24670F310048608D /* Viper Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Viper Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		50DDDFB224670F310048608D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		50DDDFB424670F310048608D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		50DDDFB624670F310048608D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		50DDDFB924670F310048608D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		50DDDFBB24670F360048608D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		50DDDFBE24670F360048608D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		50DDDFC024670F360048608D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50DDDFD724670F980048608D /* EmployeeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmployeeViewController.swift; sourceTree = "<group>"; };
+		50DDDFD924670F980048608D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		50DDDFDC24670F980048608D /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		50DDDFDD24670F980048608D /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		50DDDFDF24670F980048608D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		50DDDFE124670F980048608D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		50DDDFE224670F980048608D /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		50DDDFE424670F990048608D /* Toast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
+		50DDDFF7246711700048608D /* EmployeeResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeResponseModel.swift; sourceTree = "<group>"; };
+		50DDDFF9246711D90048608D /* EmployeeProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeProtocols.swift; sourceTree = "<group>"; };
+		50DDDFFB246713010048608D /* ServiceInteractionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceInteractionHandler.swift; sourceTree = "<group>"; };
+		50DDDFFD246713A20048608D /* NetworkReachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkReachability.swift; sourceTree = "<group>"; };
+		50DDDFFF246714030048608D /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		50DDE001246714530048608D /* EmployeeInterceptor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeInterceptor.swift; sourceTree = "<group>"; };
+		50DDE003246715E20048608D /* EmployeePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeePresenter.swift; sourceTree = "<group>"; };
+		50DDE005246716650048608D /* EmployeeRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeRouter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +62,7 @@
 			children = (
 				50DDDFB124670F310048608D /* Viper Example */,
 				50DDDFB024670F310048608D /* Products */,
+				50DDDFE224670F980048608D /* README.md */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +77,128 @@
 		50DDDFB124670F310048608D /* Viper Example */ = {
 			isa = PBXGroup;
 			children = (
-				50DDDFB224670F310048608D /* AppDelegate.swift */,
-				50DDDFB424670F310048608D /* SceneDelegate.swift */,
-				50DDDFB624670F310048608D /* ViewController.swift */,
-				50DDDFB824670F310048608D /* Main.storyboard */,
-				50DDDFBB24670F360048608D /* Assets.xcassets */,
-				50DDDFBD24670F360048608D /* LaunchScreen.storyboard */,
+				50DDDFD624670F980048608D /* Classes */,
+				50DDDFDB24670F980048608D /* Delegates */,
+				50DDDFEF24670FD00048608D /* Common */,
+				50DDDFDE24670F980048608D /* Resources */,
 				50DDDFC024670F360048608D /* Info.plist */,
 			);
 			path = "Viper Example";
+			sourceTree = "<group>";
+		};
+		50DDDFD424670F980048608D /* Handler */ = {
+			isa = PBXGroup;
+			children = (
+				50DDDFFB246713010048608D /* ServiceInteractionHandler.swift */,
+				50DDDFFD246713A20048608D /* NetworkReachability.swift */,
+			);
+			path = Handler;
+			sourceTree = "<group>";
+		};
+		50DDDFD624670F980048608D /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				50DDDFF0246710370048608D /* Employee */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		50DDDFDB24670F980048608D /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				50DDDFDC24670F980048608D /* AppDelegate.swift */,
+				50DDDFDD24670F980048608D /* SceneDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		50DDDFDE24670F980048608D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				50DDDFDF24670F980048608D /* Assets.xcassets */,
+				50DDDFE024670F980048608D /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		50DDDFE324670F990048608D /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				50DDDFE424670F990048608D /* Toast.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		50DDDFEF24670FD00048608D /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				50DDDFD424670F980048608D /* Handler */,
+				50DDDFE324670F990048608D /* Helpers */,
+				50DDDFFF246714030048608D /* Constants.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		50DDDFF0246710370048608D /* Employee */ = {
+			isa = PBXGroup;
+			children = (
+				50DDDFF4246710D60048608D /* View */,
+				50DDDFF3246710C50048608D /* Interceptor */,
+				50DDDFF2246710B10048608D /* Presenter */,
+				50DDDFF5246710DF0048608D /* Entity */,
+				50DDDFF6246710F40048608D /* Router */,
+				50DDDFF1246710900048608D /* Protocols */,
+			);
+			path = Employee;
+			sourceTree = "<group>";
+		};
+		50DDDFF1246710900048608D /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				50DDDFF9246711D90048608D /* EmployeeProtocols.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		50DDDFF2246710B10048608D /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				50DDE003246715E20048608D /* EmployeePresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		50DDDFF3246710C50048608D /* Interceptor */ = {
+			isa = PBXGroup;
+			children = (
+				50DDE001246714530048608D /* EmployeeInterceptor.swift */,
+			);
+			path = Interceptor;
+			sourceTree = "<group>";
+		};
+		50DDDFF4246710D60048608D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				50DDDFD724670F980048608D /* EmployeeViewController.swift */,
+				50DDDFD824670F980048608D /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		50DDDFF5246710DF0048608D /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				50DDDFF7246711700048608D /* EmployeeResponseModel.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		50DDDFF6246710F40048608D /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				50DDE005246716650048608D /* EmployeeRouter.swift */,
+			);
+			path = Router;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +259,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				50DDDFBF24670F360048608D /* LaunchScreen.storyboard in Resources */,
-				50DDDFBC24670F360048608D /* Assets.xcassets in Resources */,
-				50DDDFBA24670F310048608D /* Main.storyboard in Resources */,
+				50DDDFEB24670F990048608D /* LaunchScreen.storyboard in Resources */,
+				50DDDFEA24670F990048608D /* Assets.xcassets in Resources */,
+				50DDDFEC24670F990048608D /* README.md in Resources */,
+				50DDDFE724670F990048608D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,27 +273,36 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				50DDDFB724670F310048608D /* ViewController.swift in Sources */,
-				50DDDFB324670F310048608D /* AppDelegate.swift in Sources */,
-				50DDDFB524670F310048608D /* SceneDelegate.swift in Sources */,
+				50DDE006246716650048608D /* EmployeeRouter.swift in Sources */,
+				50DDDFE824670F990048608D /* AppDelegate.swift in Sources */,
+				50DDE002246714530048608D /* EmployeeInterceptor.swift in Sources */,
+				50DDE004246715E20048608D /* EmployeePresenter.swift in Sources */,
+				50DDDFFC246713010048608D /* ServiceInteractionHandler.swift in Sources */,
+				50DDDFE624670F990048608D /* EmployeeViewController.swift in Sources */,
+				50DDDFF8246711700048608D /* EmployeeResponseModel.swift in Sources */,
+				50DDDFED24670F990048608D /* Toast.swift in Sources */,
+				50DDDFFA246711D90048608D /* EmployeeProtocols.swift in Sources */,
+				50DDDFE924670F990048608D /* SceneDelegate.swift in Sources */,
+				50DDDFFE246713A20048608D /* NetworkReachability.swift in Sources */,
+				50DDE000246714030048608D /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		50DDDFB824670F310048608D /* Main.storyboard */ = {
+		50DDDFD824670F980048608D /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				50DDDFB924670F310048608D /* Base */,
+				50DDDFD924670F980048608D /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		50DDDFBD24670F360048608D /* LaunchScreen.storyboard */ = {
+		50DDDFE024670F980048608D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				50DDDFBE24670F360048608D /* Base */,
+				50DDDFE124670F980048608D /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -285,6 +429,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7XG9VTZMR8;
 				INFOPLIST_FILE = "Viper Example/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -302,6 +447,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7XG9VTZMR8;
 				INFOPLIST_FILE = "Viper Example/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  Viper Example
+//  API Master
 //
-//  Created by TPFLAP146 on 09/05/20.
+//  Created by TPFLAP146 on 03/05/20.
 //  Copyright © 2020 vijay. All rights reserved.
 //
 
@@ -11,10 +11,16 @@ import UIKit
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-
-
+    var window: UIWindow?
+    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        let employee = EmployeeRouter.start()
+        
+        window = UIWindow(frame: UIScreen.main.bounds)
+        window?.rootViewController = employee
+        window?.makeKeyAndVisible()
+        
         return true
     }
 
