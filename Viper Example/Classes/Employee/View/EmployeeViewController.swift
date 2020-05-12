@@ -33,9 +33,11 @@ extension EmployeeViewController: EmployeePresenterToViewProtocol {
 
     func showEmployees(employee: EmployeeResponse) {
         print("success")
+        Toast.showasync(message: "success", controller: self)
     }
     
     func showError() {
         print("failed")
+        Toast.showasync(message: "failed", controller: self)
     }
 }

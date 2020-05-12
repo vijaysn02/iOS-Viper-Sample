@@ -22,7 +22,7 @@
 		50DDDFFC246713010048608D /* ServiceInteractionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50DDDFFB246713010048608D /* ServiceInteractionHandler.swift */; };
 		50DDDFFE246713A20048608D /* NetworkReachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50DDDFFD246713A20048608D /* NetworkReachability.swift */; };
 		50DDE000246714030048608D /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50DDDFFF246714030048608D /* Constants.swift */; };
-		50DDE002246714530048608D /* EmployeeInterceptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50DDE001246714530048608D /* EmployeeInterceptor.swift */; };
+		50DDE002246714530048608D /* EmployeeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50DDE001246714530048608D /* EmployeeInteractor.swift */; };
 		50DDE004246715E20048608D /* EmployeePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50DDE003246715E20048608D /* EmployeePresenter.swift */; };
 		50DDE006246716650048608D /* EmployeeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50DDE005246716650048608D /* EmployeeRouter.swift */; };
 /* End PBXBuildFile section */
@@ -45,7 +45,7 @@
 		50DDDFFB246713010048608D /* ServiceInteractionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceInteractionHandler.swift; sourceTree = "<group>"; };
 		50DDDFFD246713A20048608D /* NetworkReachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkReachability.swift; sourceTree = "<group>"; };
 		50DDDFFF246714030048608D /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
-		50DDE001246714530048608D /* EmployeeInterceptor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeInterceptor.swift; sourceTree = "<group>"; };
+		50DDE001246714530048608D /* EmployeeInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeInteractor.swift; sourceTree = "<group>"; };
 		50DDE003246715E20048608D /* EmployeePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeePresenter.swift; sourceTree = "<group>"; };
 		50DDE005246716650048608D /* EmployeeRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeRouter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -177,7 +177,7 @@
 		50DDDFF3246710C50048608D /* Interceptor */ = {
 			isa = PBXGroup;
 			children = (
-				50DDE001246714530048608D /* EmployeeInterceptor.swift */,
+				50DDE001246714530048608D /* EmployeeInteractor.swift */,
 			);
 			path = Interceptor;
 			sourceTree = "<group>";
@@ -282,7 +282,7 @@
 			files = (
 				50DDE006246716650048608D /* EmployeeRouter.swift in Sources */,
 				50DDDFE824670F990048608D /* AppDelegate.swift in Sources */,
-				50DDE002246714530048608D /* EmployeeInterceptor.swift in Sources */,
+				50DDE002246714530048608D /* EmployeeInteractor.swift in Sources */,
 				50DDE004246715E20048608D /* EmployeePresenter.swift in Sources */,
 				50DDDFFC246713010048608D /* ServiceInteractionHandler.swift in Sources */,
 				50DDDFE624670F990048608D /* EmployeeViewController.swift in Sources */,
