@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		502E9041246ABDB500001D4A /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 502E9040246ABDB500001D4A /* README.md */; };
+		502E9043246ABE8D00001D4A /* AppRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 502E9042246ABE8D00001D4A /* AppRouter.swift */; };
 		50DDDFE624670F990048608D /* EmployeeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50DDDFD724670F980048608D /* EmployeeViewController.swift */; };
 		50DDDFE724670F990048608D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50DDDFD824670F980048608D /* Main.storyboard */; };
 		50DDDFE824670F990048608D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50DDDFDC24670F980048608D /* AppDelegate.swift */; };
@@ -26,6 +28,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		502E9040246ABDB500001D4A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		502E9042246ABE8D00001D4A /* AppRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRouter.swift; sourceTree = "<group>"; };
 		50DDDFAF24670F310048608D /* Viper Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Viper Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		50DDDFC024670F360048608D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		50DDDFD724670F980048608D /* EmployeeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmployeeViewController.swift; sourceTree = "<group>"; };
@@ -60,6 +64,7 @@
 		50DDDFA624670F310048608D = {
 			isa = PBXGroup;
 			children = (
+				502E9040246ABDB500001D4A /* README.md */,
 				50DDDFB124670F310048608D /* Viper Example */,
 				50DDDFB024670F310048608D /* Products */,
 				50DDDFE224670F980048608D /* README.md */,
@@ -125,6 +130,7 @@
 			isa = PBXGroup;
 			children = (
 				50DDDFE424670F990048608D /* Toast.swift */,
+				502E9042246ABE8D00001D4A /* AppRouter.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -261,6 +267,7 @@
 			files = (
 				50DDDFEB24670F990048608D /* LaunchScreen.storyboard in Resources */,
 				50DDDFEA24670F990048608D /* Assets.xcassets in Resources */,
+				502E9041246ABDB500001D4A /* README.md in Resources */,
 				50DDDFEC24670F990048608D /* README.md in Resources */,
 				50DDDFE724670F990048608D /* Main.storyboard in Resources */,
 			);
@@ -283,6 +290,7 @@
 				50DDDFED24670F990048608D /* Toast.swift in Sources */,
 				50DDDFFA246711D90048608D /* EmployeeProtocols.swift in Sources */,
 				50DDDFE924670F990048608D /* SceneDelegate.swift in Sources */,
+				502E9043246ABE8D00001D4A /* AppRouter.swift in Sources */,
 				50DDDFFE246713A20048608D /* NetworkReachability.swift in Sources */,
 				50DDE000246714030048608D /* Constants.swift in Sources */,
 			);

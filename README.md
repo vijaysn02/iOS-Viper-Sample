@@ -2,15 +2,14 @@
 
 ## Introduction:
 
-This project is created to understand the working of Project Name and also to have a ready made component for integration in the projects. 
+This project is created to understand the working of Viper Sample. It also gives you a clear insight of how control flows through each component of Viper.
 
-If you want to implement it straight away, you can make copy the handler in the project and jump to the Usage part.
+Here , we are implementing our beloved API-Master project to get the data from the Server from the Viper layer
+
 
 ---------------------------------------------------------------------------------------------------
 
 ## Installation:
-
-<Mention installation step if any> else
 
 There is no specific installation needed for this implementation.
 
@@ -19,17 +18,11 @@ There is no specific installation needed for this implementation.
 
 ## Configuration:
 
- <Mention the configuration below if any> else
-
-```
-Put your configuration here.
-```
-
 There is no specific configuration needed for this implementation.
 
 ----------------------------------------------------------------------------------------------------
 
-## Coding Part - Handler:
+## Coding Part - Handlers:
 
 There are two important section of this handler. (i) Initialization and Constumption
 
@@ -63,4 +56,4 @@ There are two important section of this handler. (i) Initialization and Constump
 ```
 
 
-### Check out my Post about Project Name : [Project Name](https://vijaysn.com/2020/04/23/ios-av-player/)
+### Check out my Post about Viper Sample: [Project Name](https://vijaysn.com/2020/04/23/ios-av-player/)

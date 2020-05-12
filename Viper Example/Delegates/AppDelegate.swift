@@ -15,11 +15,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
-        let employee = EmployeeRouter.start()
         
-        window = UIWindow(frame: UIScreen.main.bounds)
-        window?.rootViewController = employee
-        window?.makeKeyAndVisible()
+        if #available(iOS 13.0, *) {
+            // In iOS 13 setup is done in SceneDelegate
+        } else {
+             window = UIWindow(frame: UIScreen.main.bounds)
+             window?.rootViewController = AppRouter.setRootViewController()
+             window?.makeKeyAndVisible()
+        }
         
         return true
     }
